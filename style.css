@@ -1,0 +1,51 @@
+body{
+padding: 0px;
+margin: 0100px; 
+ text-align: center;
+}
+
+main{
+     background-color: rgb(16, 231, 231);
+     padding: 50px 0;
+     
+
+}
+.main{
+    width: 100%;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.weather_temprature img{
+    font-size: 25px;
+    /* width: 10px; */
+    /* font-weight: 700; */
+}
+main h2{
+    padding-bottom: 20px;
+}
+.weather img{
+    width: 100px;
+    height: auto;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.weather h4{
+    margin-top: -25px;
+}
+@media only screen and (max-width: 600px) {
+ body{
+    margin: 0px 10px;
+ }
+}
